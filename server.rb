@@ -15,8 +15,14 @@ GAME = Game.new
   	erb :new_player
   end
 
-  get '/reset' do
-    GAME.players = [] 
+  post '/reset' do
+    if GAME.players.count == 2
+      GAME.players=[]
+    elsif GAME.players.count == 1
+      GAME.players.delete(GAME.select_player_with(session[:my_id]))
+    end
+    @name = session[:my_name]
+    erb :choose_opponent 
   end
 
   post '/register' do
@@ -38,15 +44,11 @@ GAME = Game.new
       redirect '/playgame'
     else
       GAME.add_player @player
-      puts "in play"
-      puts GAME.players
       redirect '/holding_page'
     end
   end
 
   get '/holding_page' do
-    puts "in holding page"
-    puts GAME.players
     if GAME.ready_to_start?
       redirect '/playgame'
     else
@@ -55,19 +57,11 @@ GAME = Game.new
   end
 
   get '/playgame' do
-    puts "in play game"
-    puts GAME.players
     @my_id = session[:my_id]
     erb :playgame
-  	# player = Player.new(params[:name])
-  	# player.picks = params[:pick]
-  	# computer = generate_computer
-  	# @game = Game.new(player, computer)
-  	# erb :outcome
   end
 
   post '/play_game' do
-    puts "in post to playgame"
     GAME.select_player_with(session[:my_id]).picks=params[:pick]
       redirect '/wait_for_pick'
   end
@@ -76,6 +70,7 @@ GAME = Game.new
      if GAME.player1.pick == nil || GAME.player2.pick == nil
       erb :wait_for_pick
     else
+      @me= GAME.select_player_with(session[:my_id])
       @winner=GAME.winner
     erb :outcome
     end

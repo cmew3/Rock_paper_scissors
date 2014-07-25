@@ -33,6 +33,15 @@ Given(/^a player has already registered$/) do
 	GAME.add_player(Player.new("Sam"))
 end
 
+Given(/^two players have registered to play$/) do
+  GAME = Game.new
+  GAME.add_player(Player.new(name: "Nikesh"))
+  me = Player.new("Charlotte")
+  GAME.add_player(me)
+  @my_id=me.object_id
+  visit '/playgame'
+end
+
 Given(/^I've registered to play$/) do
 	visit '/reset'
   	visit '/new-game'
@@ -49,9 +58,5 @@ Given(/^a new game$/) do
 end
 
 When(/^I choose Paper$/) do
-  click_button('Paper')
-end
-
-When(/^another player choose "(.*?)"$/) do |arg1|
   click_button('Paper')
 end

@@ -1,8 +1,17 @@
-RESULTS:
+<html>
+<head>
+	<title>Results</title>
+</head>
+<body>
+	<% if @winner == "Draw" %>
+ 		<h1> Draw! </h1>
+ 	<% else  %>
+		<h1> <%= @winner.name %> wins, with <%= @winner.pick %> </h1>
+	<%end%>
 
+	<form action ='/reset' method = "post">
+		<button name="play_again">Play again</button> 
+	</form>
+</body>
+</html>
 
-<% if @winner == "Draw" %>
- <h1> it was a draw </h1>
- <% else  %>
-<h1> <%= @winner.name %> wins, with <%= @winner.pick %> </h1>
-<%end%>
