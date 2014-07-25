@@ -15,6 +15,10 @@ GAME = Game.new
   	erb :new_player
   end
 
+  get '/reset' do
+    GAME=Game.new
+  end
+
   post '/reset' do
     if GAME.players.count == 2
       GAME.players=[]
@@ -31,16 +35,14 @@ GAME = Game.new
     erb :choose_opponent  
   end
 
-  post "/play" do
+  post "/holding_page" do
     @player = Player.new(params[:name])
     session[:my_id] = @player.object_id
     selection = params[:opponent]
     if selection == "Computer"
       GAME.players =[]
       GAME.add_player @player
-      computer = generate_computer
-      GAME.add_player computer
-      session[:my_id] = @player.object_id
+      GAME.add_player generate_computer
       redirect '/playgame'
     else
       GAME.add_player @player
@@ -79,7 +81,6 @@ GAME = Game.new
   def generate_computer
   	comp = Player.new("Computer")
   	comp.picks = ["Rock","Paper","Scissors"].sample
-    puts comp.pick
   	comp
   end
 

@@ -3,11 +3,10 @@
 	<title>Choose your opponent</title>
 </head>
 <body>
-	<h1>Welcome <%= @name%></h1>
 
-	<h1>Please choose your duelling opponent</h1>
+	<h1><%= @name%>:please choose your duelling opponent</h1>
 
-	<form action = '/play' method = "post">
+	<form action = '/holding_page' method = "post">
 		<button name="opponent" value="Computer">Play Computer</button>
 		<button name="opponent" value="Opponent">Play Live Opponent</button>
 		<input type="hidden" name="name" value=<%=@name%>>
