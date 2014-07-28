@@ -64,7 +64,7 @@ GAME = Game.new
   end
 
   post '/play_game' do
-    GAME.select_player_with(session[:my_id]).picks=params[:pick]
+    GAME.select_player_with(session[:my_id]).picks=params[:pick].downcase.to_sym
       redirect '/wait_for_pick'
   end
 
@@ -74,13 +74,14 @@ GAME = Game.new
     else
       @me= GAME.select_player_with(session[:my_id])
       @winner=GAME.winner
+      @loser = GAME.loser
     erb :outcome
     end
   end
 
   def generate_computer
-  	comp = Player.new("Computer")
-  	comp.picks = ["Rock","Paper","Scissors"].sample
+  	comp = Player.new("He-Who-Must-Not-Be-Named")
+  	comp.picks = [:wand,:cloak,:potion].sample
   	comp
   end
 

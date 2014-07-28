@@ -5,12 +5,29 @@
 <body>
 	<% if @winner == "Draw" %>
  		<h1> Draw! </h1>
+ 		<p> Two <%=@me.pick%>s are a worthy match </p>
  	<% else  %>
-		<h1> <%= @winner.name %> wins, with <%= @winner.pick %> </h1>
+ 		<%if @me == @winner %>
+	 		<h1>You triumph!</h1>
+		<%elsif @me == @loser %>
+	 		<h1>You are vanquished!</h1>
+ 		<% end %>
+		
+		<% if @winner.pick == :wand %>
+			<p>Avada Kedavra </p>
+			<p>A potion is powerless againsts the wand's Killing Curse</p>
+			<p><img src="/images/wand.jpg"></p>
+		<% elsif @winner.pick == :potion %>
+			<p>A cloak gives no protection from Bloodroot Poison </p>
+			<p><img src="/images/potion.jpg"></p>
+		<% elsif @winner.pick == :cloak %>
+			<p>A wand's spells cannot penetrate the Cloak of Invisibility</p>
+			<p><img src="/images/cloak.jpg"></
+		<% end %>
 	<%end%>
 
 	<form action ='/reset' method = "post">
-		<button name="play_again">Play again</button> 
+		<button name="play_again">Duel again</button> 
 	</form>
 </body>
 </html>

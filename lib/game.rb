@@ -4,7 +4,7 @@ class Game
 		@players = players
 	end
 
-	BEATS = {rock: :scissors, scissors: :paper, paper: :rock}
+	BEATS = {wand: :potion, potion: :cloak, cloak: :wand}
 
 	attr_reader :players, :player1, :player2
 	attr_writer :players
@@ -36,6 +36,13 @@ class Game
 		return "Draw" if player1.pick == player2.pick
 		return player1  if BEATS[normalize(player1.pick)] == normalize(player2.pick)
 		player2
+	end
+
+	def loser
+		return "Draw" if player1.pick == player2.pick
+		return player2  if BEATS[normalize(player1.pick)] == normalize(player2.pick)
+		player1
+
 	end
 
 	def normalize(pick)

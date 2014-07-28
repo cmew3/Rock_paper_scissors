@@ -4,12 +4,13 @@
 </head>
 <body>
 
-	<h1><%= @name%>:please choose your duelling opponent</h1>
+	<h2><%= @name%>:</h2>
+	<h2>Please choose your duelling opponent</h2>
 
 	<form action = '/holding_page' method = "post">
-		<button name="opponent" value="Computer">Play Computer</button>
-		<button name="opponent" value="Opponent">Play Live Opponent</button>
-		<input type="hidden" name="name" value=<%=@name%>>
+		<button class = "opponent" name="opponent" value="Computer">He-Who-Must-Not-Be-Named</button>
+		<button class = "opponent" name="opponent" value="Opponent">Play Live Wizard Opponent</button>
+		<input class = "opponent" type="hidden" name="name" value=<%=@name%>>
 	</form>
 
 </body>
