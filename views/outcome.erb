@@ -5,7 +5,7 @@
 <body>
 	<% if @winner == "Draw" %>
  		<h1> Draw! </h1>
- 		<p> Two <%=@me.pick%>s are a worthy match </p>
+ 		<p> Two <%=@me.pick%>s prove a worthy match</p>
  	<% else  %>
  		<%if @me == @winner %>
 	 		<h1>You triumph!</h1>
@@ -22,7 +22,7 @@
 			<p><img src="/images/potion.jpg"></p>
 		<% elsif @winner.pick == :cloak %>
 			<p>A wand's spells cannot penetrate the Cloak of Invisibility</p>
-			<p><img src="/images/cloak.jpg"></
+			<p><img src="/images/cloak.jpg"></p>
 		<% end %>
 	<%end%>
 

@@ -22,7 +22,6 @@ h2 {
 	font-size: 48px;
 	padding: 0px;
 	text-align: center;
-	width: 500px;
 }
 
 nav {
@@ -79,7 +78,7 @@ h3 {
 
 p {
 	margin: 10 auto;
-	font-size: 30px;
+	font-size: 38px;
 	padding: 10px;
 	text-align: center;
 }
@@ -113,5 +112,9 @@ img {
 
 h1#winner {
 	width: 800px;
+}
+
+footer {
+	margin-top: 500px;
 }
 
