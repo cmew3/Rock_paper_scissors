@@ -1,0 +1,145 @@
+# Logfile created on 2014-07-29 16:48:19 +0100 by logger.rb/41954
+[07/29/14 16:48:19 +0100 Stephens-MacBook-Pro.local (32403)] INFO : Starting the New Relic agent in "development" environment.
+[07/29/14 16:48:19 +0100 Stephens-MacBook-Pro.local (32403)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/29/14 16:48:19 +0100 Stephens-MacBook-Pro.local (32403)] INFO : Reading configuration from config/newrelic.yml
+[07/29/14 16:48:19 +0100 Stephens-MacBook-Pro.local (32403)] INFO : Environment: development
+[07/29/14 16:48:19 +0100 Stephens-MacBook-Pro.local (32403)] INFO : Dispatcher: thin
+[07/29/14 16:48:19 +0100 Stephens-MacBook-Pro.local (32403)] INFO : Application: My Application (Development)
+[07/29/14 16:48:19 +0100 Stephens-MacBook-Pro.local (32403)] INFO : Installing Net instrumentation
+[07/29/14 16:48:19 +0100 Stephens-MacBook-Pro.local (32403)] INFO : Installing Sinatra instrumentation
+[07/29/14 16:48:19 +0100 Stephens-MacBook-Pro.local (32403)] INFO : Installing deferred Rack instrumentation
+[07/29/14 16:48:19 +0100 Stephens-MacBook-Pro.local (32403)] INFO : Installing Rack::Builder middleware instrumentation
+[07/29/14 16:48:19 +0100 Stephens-MacBook-Pro.local (32403)] INFO : Finished instrumentation
+[07/29/14 16:48:19 +0100 Stephens-MacBook-Pro.local (32403)] INFO : Doing deferred dependency-detection before Rack startup
+[07/29/14 16:48:22 +0100 Stephens-MacBook-Pro.local (32408)] INFO : Starting the New Relic agent in "development" environment.
+[07/29/14 16:48:22 +0100 Stephens-MacBook-Pro.local (32408)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/29/14 16:48:22 +0100 Stephens-MacBook-Pro.local (32408)] INFO : Reading configuration from config/newrelic.yml
+[07/29/14 16:48:22 +0100 Stephens-MacBook-Pro.local (32408)] INFO : Environment: development
+[07/29/14 16:48:22 +0100 Stephens-MacBook-Pro.local (32408)] INFO : Dispatcher: thin
+[07/29/14 16:48:22 +0100 Stephens-MacBook-Pro.local (32408)] INFO : Application: My Application (Development)
+[07/29/14 16:48:22 +0100 Stephens-MacBook-Pro.local (32408)] INFO : Installing Net instrumentation
+[07/29/14 16:48:22 +0100 Stephens-MacBook-Pro.local (32408)] INFO : Installing Sinatra instrumentation
+[07/29/14 16:48:22 +0100 Stephens-MacBook-Pro.local (32408)] INFO : Installing deferred Rack instrumentation
+[07/29/14 16:48:22 +0100 Stephens-MacBook-Pro.local (32408)] INFO : Installing Rack::Builder middleware instrumentation
+[07/29/14 16:48:22 +0100 Stephens-MacBook-Pro.local (32408)] INFO : Finished instrumentation
+[07/29/14 16:48:22 +0100 Stephens-MacBook-Pro.local (32408)] INFO : Doing deferred dependency-detection before Rack startup
+[07/29/14 16:48:25 +0100 Stephens-MacBook-Pro.local (32412)] INFO : Starting the New Relic agent in "development" environment.
+[07/29/14 16:48:25 +0100 Stephens-MacBook-Pro.local (32412)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/29/14 16:48:25 +0100 Stephens-MacBook-Pro.local (32412)] INFO : Reading configuration from config/newrelic.yml
+[07/29/14 16:48:25 +0100 Stephens-MacBook-Pro.local (32412)] INFO : Environment: development
+[07/29/14 16:48:25 +0100 Stephens-MacBook-Pro.local (32412)] INFO : Dispatcher: thin
+[07/29/14 16:48:25 +0100 Stephens-MacBook-Pro.local (32412)] INFO : Application: My Application (Development)
+[07/29/14 16:48:25 +0100 Stephens-MacBook-Pro.local (32412)] INFO : Installing Net instrumentation
+[07/29/14 16:48:25 +0100 Stephens-MacBook-Pro.local (32412)] INFO : Installing Sinatra instrumentation
+[07/29/14 16:48:25 +0100 Stephens-MacBook-Pro.local (32412)] INFO : Installing deferred Rack instrumentation
+[07/29/14 16:48:25 +0100 Stephens-MacBook-Pro.local (32412)] INFO : Installing Rack::Builder middleware instrumentation
+[07/29/14 16:48:25 +0100 Stephens-MacBook-Pro.local (32412)] INFO : Finished instrumentation
+[07/29/14 16:48:25 +0100 Stephens-MacBook-Pro.local (32412)] INFO : Doing deferred dependency-detection before Rack startup
+[07/29/14 16:48:31 +0100 Stephens-MacBook-Pro.local (32416)] INFO : Starting the New Relic agent in "development" environment.
+[07/29/14 16:48:31 +0100 Stephens-MacBook-Pro.local (32416)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/29/14 16:48:31 +0100 Stephens-MacBook-Pro.local (32416)] INFO : Reading configuration from config/newrelic.yml
+[07/29/14 16:48:31 +0100 Stephens-MacBook-Pro.local (32416)] INFO : Environment: development
+[07/29/14 16:48:31 +0100 Stephens-MacBook-Pro.local (32416)] INFO : Dispatcher: thin
+[07/29/14 16:48:31 +0100 Stephens-MacBook-Pro.local (32416)] INFO : Application: My Application (Development)
+[07/29/14 16:48:31 +0100 Stephens-MacBook-Pro.local (32416)] INFO : Installing Net instrumentation
+[07/29/14 16:48:31 +0100 Stephens-MacBook-Pro.local (32416)] INFO : Installing Sinatra instrumentation
+[07/29/14 16:48:31 +0100 Stephens-MacBook-Pro.local (32416)] INFO : Installing deferred Rack instrumentation
+[07/29/14 16:48:31 +0100 Stephens-MacBook-Pro.local (32416)] INFO : Installing Rack::Builder middleware instrumentation
+[07/29/14 16:48:31 +0100 Stephens-MacBook-Pro.local (32416)] INFO : Finished instrumentation
+[07/29/14 16:48:31 +0100 Stephens-MacBook-Pro.local (32416)] INFO : Doing deferred dependency-detection before Rack startup
+[07/29/14 16:48:31 +0100 Stephens-MacBook-Pro.local (32420)] INFO : Starting the New Relic agent in "development" environment.
+[07/29/14 16:48:31 +0100 Stephens-MacBook-Pro.local (32420)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/29/14 16:48:31 +0100 Stephens-MacBook-Pro.local (32420)] INFO : Reading configuration from config/newrelic.yml
+[07/29/14 16:48:31 +0100 Stephens-MacBook-Pro.local (32420)] INFO : Environment: development
+[07/29/14 16:48:31 +0100 Stephens-MacBook-Pro.local (32420)] INFO : Dispatcher: thin
+[07/29/14 16:48:31 +0100 Stephens-MacBook-Pro.local (32420)] INFO : Application: My Application (Development)
+[07/29/14 16:48:31 +0100 Stephens-MacBook-Pro.local (32420)] INFO : Installing Net instrumentation
+[07/29/14 16:48:31 +0100 Stephens-MacBook-Pro.local (32420)] INFO : Installing Sinatra instrumentation
+[07/29/14 16:48:31 +0100 Stephens-MacBook-Pro.local (32420)] INFO : Installing deferred Rack instrumentation
+[07/29/14 16:48:31 +0100 Stephens-MacBook-Pro.local (32420)] INFO : Installing Rack::Builder middleware instrumentation
+[07/29/14 16:48:31 +0100 Stephens-MacBook-Pro.local (32420)] INFO : Finished instrumentation
+[07/29/14 16:48:31 +0100 Stephens-MacBook-Pro.local (32420)] INFO : Doing deferred dependency-detection before Rack startup
+[07/29/14 16:48:34 +0100 Stephens-MacBook-Pro.local (32424)] INFO : Starting the New Relic agent in "development" environment.
+[07/29/14 16:48:34 +0100 Stephens-MacBook-Pro.local (32424)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/29/14 16:48:34 +0100 Stephens-MacBook-Pro.local (32424)] INFO : Reading configuration from config/newrelic.yml
+[07/29/14 16:48:34 +0100 Stephens-MacBook-Pro.local (32424)] INFO : Environment: development
+[07/29/14 16:48:34 +0100 Stephens-MacBook-Pro.local (32424)] INFO : Dispatcher: thin
+[07/29/14 16:48:34 +0100 Stephens-MacBook-Pro.local (32424)] INFO : Application: My Application (Development)
+[07/29/14 16:48:34 +0100 Stephens-MacBook-Pro.local (32424)] INFO : Installing Net instrumentation
+[07/29/14 16:48:34 +0100 Stephens-MacBook-Pro.local (32424)] INFO : Installing Sinatra instrumentation
+[07/29/14 16:48:34 +0100 Stephens-MacBook-Pro.local (32424)] INFO : Installing deferred Rack instrumentation
+[07/29/14 16:48:34 +0100 Stephens-MacBook-Pro.local (32424)] INFO : Installing Rack::Builder middleware instrumentation
+[07/29/14 16:48:34 +0100 Stephens-MacBook-Pro.local (32424)] INFO : Finished instrumentation
+[07/29/14 16:48:34 +0100 Stephens-MacBook-Pro.local (32424)] INFO : Doing deferred dependency-detection before Rack startup
+[07/29/14 16:48:38 +0100 Stephens-MacBook-Pro.local (32428)] INFO : Starting the New Relic agent in "development" environment.
+[07/29/14 16:48:38 +0100 Stephens-MacBook-Pro.local (32428)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/29/14 16:48:38 +0100 Stephens-MacBook-Pro.local (32428)] INFO : Reading configuration from config/newrelic.yml
+[07/29/14 16:48:38 +0100 Stephens-MacBook-Pro.local (32428)] INFO : Environment: development
+[07/29/14 16:48:38 +0100 Stephens-MacBook-Pro.local (32428)] INFO : Dispatcher: thin
+[07/29/14 16:48:38 +0100 Stephens-MacBook-Pro.local (32428)] INFO : Application: My Application (Development)
+[07/29/14 16:48:38 +0100 Stephens-MacBook-Pro.local (32428)] INFO : Installing Net instrumentation
+[07/29/14 16:48:38 +0100 Stephens-MacBook-Pro.local (32428)] INFO : Installing Sinatra instrumentation
+[07/29/14 16:48:38 +0100 Stephens-MacBook-Pro.local (32428)] INFO : Installing deferred Rack instrumentation
+[07/29/14 16:48:38 +0100 Stephens-MacBook-Pro.local (32428)] INFO : Installing Rack::Builder middleware instrumentation
+[07/29/14 16:48:38 +0100 Stephens-MacBook-Pro.local (32428)] INFO : Finished instrumentation
+[07/29/14 16:48:38 +0100 Stephens-MacBook-Pro.local (32428)] INFO : Doing deferred dependency-detection before Rack startup
+[07/29/14 16:48:43 +0100 Stephens-MacBook-Pro.local (32432)] INFO : Starting the New Relic agent in "development" environment.
+[07/29/14 16:48:43 +0100 Stephens-MacBook-Pro.local (32432)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/29/14 16:48:43 +0100 Stephens-MacBook-Pro.local (32432)] INFO : Reading configuration from config/newrelic.yml
+[07/29/14 16:48:43 +0100 Stephens-MacBook-Pro.local (32432)] INFO : Environment: development
+[07/29/14 16:48:43 +0100 Stephens-MacBook-Pro.local (32432)] INFO : Dispatcher: thin
+[07/29/14 16:48:43 +0100 Stephens-MacBook-Pro.local (32432)] INFO : Application: My Application (Development)
+[07/29/14 16:48:43 +0100 Stephens-MacBook-Pro.local (32432)] INFO : Installing Net instrumentation
+[07/29/14 16:48:43 +0100 Stephens-MacBook-Pro.local (32432)] INFO : Installing Sinatra instrumentation
+[07/29/14 16:48:43 +0100 Stephens-MacBook-Pro.local (32432)] INFO : Installing deferred Rack instrumentation
+[07/29/14 16:48:43 +0100 Stephens-MacBook-Pro.local (32432)] INFO : Installing Rack::Builder middleware instrumentation
+[07/29/14 16:48:43 +0100 Stephens-MacBook-Pro.local (32432)] INFO : Finished instrumentation
+[07/29/14 16:48:43 +0100 Stephens-MacBook-Pro.local (32432)] INFO : Doing deferred dependency-detection before Rack startup
+[07/29/14 16:48:44 +0100 Stephens-MacBook-Pro.local (32436)] INFO : Starting the New Relic agent in "development" environment.
+[07/29/14 16:48:44 +0100 Stephens-MacBook-Pro.local (32436)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/29/14 16:48:44 +0100 Stephens-MacBook-Pro.local (32436)] INFO : Reading configuration from config/newrelic.yml
+[07/29/14 16:48:44 +0100 Stephens-MacBook-Pro.local (32436)] INFO : Environment: development
+[07/29/14 16:48:44 +0100 Stephens-MacBook-Pro.local (32436)] INFO : Dispatcher: thin
+[07/29/14 16:48:44 +0100 Stephens-MacBook-Pro.local (32436)] INFO : Application: My Application (Development)
+[07/29/14 16:48:44 +0100 Stephens-MacBook-Pro.local (32436)] INFO : Installing Net instrumentation
+[07/29/14 16:48:44 +0100 Stephens-MacBook-Pro.local (32436)] INFO : Installing Sinatra instrumentation
+[07/29/14 16:48:44 +0100 Stephens-MacBook-Pro.local (32436)] INFO : Installing deferred Rack instrumentation
+[07/29/14 16:48:44 +0100 Stephens-MacBook-Pro.local (32436)] INFO : Installing Rack::Builder middleware instrumentation
+[07/29/14 16:48:44 +0100 Stephens-MacBook-Pro.local (32436)] INFO : Finished instrumentation
+[07/29/14 16:48:44 +0100 Stephens-MacBook-Pro.local (32436)] INFO : Doing deferred dependency-detection before Rack startup
+[07/29/14 16:48:49 +0100 Stephens-MacBook-Pro.local (32440)] INFO : Starting the New Relic agent in "development" environment.
+[07/29/14 16:48:49 +0100 Stephens-MacBook-Pro.local (32440)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/29/14 16:48:49 +0100 Stephens-MacBook-Pro.local (32440)] INFO : Reading configuration from config/newrelic.yml
+[07/29/14 16:48:49 +0100 Stephens-MacBook-Pro.local (32440)] INFO : Environment: development
+[07/29/14 16:48:49 +0100 Stephens-MacBook-Pro.local (32440)] INFO : Dispatcher: thin
+[07/29/14 16:48:49 +0100 Stephens-MacBook-Pro.local (32440)] INFO : Application: My Application (Development)
+[07/29/14 16:48:49 +0100 Stephens-MacBook-Pro.local (32440)] INFO : Installing Net instrumentation
+[07/29/14 16:48:49 +0100 Stephens-MacBook-Pro.local (32440)] INFO : Installing Sinatra instrumentation
+[07/29/14 16:48:49 +0100 Stephens-MacBook-Pro.local (32440)] INFO : Installing deferred Rack instrumentation
+[07/29/14 16:48:49 +0100 Stephens-MacBook-Pro.local (32440)] INFO : Installing Rack::Builder middleware instrumentation
+[07/29/14 16:48:49 +0100 Stephens-MacBook-Pro.local (32440)] INFO : Finished instrumentation
+[07/29/14 16:48:49 +0100 Stephens-MacBook-Pro.local (32440)] INFO : Doing deferred dependency-detection before Rack startup
+[07/29/14 16:48:49 +0100 Stephens-MacBook-Pro.local (32444)] INFO : Starting the New Relic agent in "development" environment.
+[07/29/14 16:48:49 +0100 Stephens-MacBook-Pro.local (32444)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/29/14 16:48:49 +0100 Stephens-MacBook-Pro.local (32444)] INFO : Reading configuration from config/newrelic.yml
+[07/29/14 16:48:49 +0100 Stephens-MacBook-Pro.local (32444)] INFO : Environment: development
+[07/29/14 16:48:49 +0100 Stephens-MacBook-Pro.local (32444)] INFO : Dispatcher: thin
+[07/29/14 16:48:49 +0100 Stephens-MacBook-Pro.local (32444)] INFO : Application: My Application (Development)
+[07/29/14 16:48:49 +0100 Stephens-MacBook-Pro.local (32444)] INFO : Installing Net instrumentation
+[07/29/14 16:48:49 +0100 Stephens-MacBook-Pro.local (32444)] INFO : Installing Sinatra instrumentation
+[07/29/14 16:48:49 +0100 Stephens-MacBook-Pro.local (32444)] INFO : Installing deferred Rack instrumentation
+[07/29/14 16:48:49 +0100 Stephens-MacBook-Pro.local (32444)] INFO : Installing Rack::Builder middleware instrumentation
+[07/29/14 16:48:49 +0100 Stephens-MacBook-Pro.local (32444)] INFO : Finished instrumentation
+[07/29/14 16:48:49 +0100 Stephens-MacBook-Pro.local (32444)] INFO : Doing deferred dependency-detection before Rack startup
+[07/29/14 16:48:54 +0100 Stephens-MacBook-Pro.local (32448)] INFO : Starting the New Relic agent in "development" environment.
+[07/29/14 16:48:54 +0100 Stephens-MacBook-Pro.local (32448)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/29/14 16:48:54 +0100 Stephens-MacBook-Pro.local (32448)] INFO : Reading configuration from config/newrelic.yml
+[07/29/14 16:48:54 +0100 Stephens-MacBook-Pro.local (32448)] INFO : Environment: development
+[07/29/14 16:48:54 +0100 Stephens-MacBook-Pro.local (32448)] INFO : Dispatcher: thin
+[07/29/14 16:48:54 +0100 Stephens-MacBook-Pro.local (32448)] INFO : Application: My Application (Development)
+[07/29/14 16:48:55 +0100 Stephens-MacBook-Pro.local (32448)] INFO : Installing Net instrumentation
+[07/29/14 16:48:55 +0100 Stephens-MacBook-Pro.local (32448)] INFO : Installing Sinatra instrumentation
+[07/29/14 16:48:55 +0100 Stephens-MacBook-Pro.local (32448)] INFO : Installing deferred Rack instrumentation
+[07/29/14 16:48:55 +0100 Stephens-MacBook-Pro.local (32448)] INFO : Installing Rack::Builder middleware instrumentation
+[07/29/14 16:48:55 +0100 Stephens-MacBook-Pro.local (32448)] INFO : Finished instrumentation
+[07/29/14 16:48:55 +0100 Stephens-MacBook-Pro.local (32448)] INFO : Doing deferred dependency-detection before Rack startup
