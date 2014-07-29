@@ -8,6 +8,9 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
+/log/newrelic_agent.log
+
+
 
 ## Specific to RubyMotion:
 .dat*

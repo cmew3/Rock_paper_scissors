@@ -24,3 +24,28 @@
 [07/29/14 20:22:11 +0100 Charlottes-MacBook-Air.local (1826)] INFO : Finished instrumentation
 [07/29/14 20:22:11 +0100 Charlottes-MacBook-Air.local (1826)] INFO : Doing deferred dependency-detection before Rack startup
 [07/29/14 20:22:13 +0100 Charlottes-MacBook-Air.local (1826)] INFO : Reporting to: https://rpm.newrelic.com/accounts/725208/applications/3568767
+[07/29/14 20:30:56 +0100 Charlottes-MacBook-Air.local (1902)] INFO : Starting the New Relic agent in "development" environment.
+[07/29/14 20:30:56 +0100 Charlottes-MacBook-Air.local (1902)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/29/14 20:30:56 +0100 Charlottes-MacBook-Air.local (1902)] INFO : Reading configuration from config/newrelic.yml
+[07/29/14 20:30:56 +0100 Charlottes-MacBook-Air.local (1902)] INFO : Environment: development
+[07/29/14 20:30:56 +0100 Charlottes-MacBook-Air.local (1902)] INFO : No known dispatcher detected.
+[07/29/14 20:30:56 +0100 Charlottes-MacBook-Air.local (1902)] INFO : Application: My Application (Development)
+[07/29/14 20:30:56 +0100 Charlottes-MacBook-Air.local (1902)] INFO : Installing Net instrumentation
+[07/29/14 20:30:56 +0100 Charlottes-MacBook-Air.local (1902)] INFO : Installing Sinatra instrumentation
+[07/29/14 20:30:56 +0100 Charlottes-MacBook-Air.local (1902)] INFO : Installing deferred Rack instrumentation
+[07/29/14 20:30:56 +0100 Charlottes-MacBook-Air.local (1902)] INFO : Installing Rack::Builder middleware instrumentation
+[07/29/14 20:30:56 +0100 Charlottes-MacBook-Air.local (1902)] INFO : Finished instrumentation
+[07/29/14 20:30:56 +0100 Charlottes-MacBook-Air.local (1902)] INFO : Doing deferred dependency-detection before Rack startup
+[07/29/14 20:31:11 +0100 Charlottes-MacBook-Air.local (1910)] INFO : Starting the New Relic agent in "development" environment.
+[07/29/14 20:31:11 +0100 Charlottes-MacBook-Air.local (1910)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/29/14 20:31:11 +0100 Charlottes-MacBook-Air.local (1910)] INFO : Reading configuration from config/newrelic.yml
+[07/29/14 20:31:11 +0100 Charlottes-MacBook-Air.local (1910)] INFO : Environment: development
+[07/29/14 20:31:11 +0100 Charlottes-MacBook-Air.local (1910)] INFO : No known dispatcher detected.
+[07/29/14 20:31:11 +0100 Charlottes-MacBook-Air.local (1910)] INFO : Application: My Application (Development)
+[07/29/14 20:31:11 +0100 Charlottes-MacBook-Air.local (1910)] INFO : Installing Net instrumentation
+[07/29/14 20:31:11 +0100 Charlottes-MacBook-Air.local (1910)] INFO : Installing Sinatra instrumentation
+[07/29/14 20:31:11 +0100 Charlottes-MacBook-Air.local (1910)] INFO : Installing deferred Rack instrumentation
+[07/29/14 20:31:11 +0100 Charlottes-MacBook-Air.local (1910)] INFO : Installing Rack::Builder middleware instrumentation
+[07/29/14 20:31:11 +0100 Charlottes-MacBook-Air.local (1910)] INFO : Finished instrumentation
+[07/29/14 20:31:11 +0100 Charlottes-MacBook-Air.local (1910)] INFO : Doing deferred dependency-detection before Rack startup
+[07/29/14 20:31:12 +0100 Charlottes-MacBook-Air.local (1910)] INFO : Reporting to: https://rpm.newrelic.com/accounts/725208/applications/3568767
