@@ -1,9 +1,9 @@
 	require 'game' 
 
 describe Game do 
-	let(:player1) {double :player1, name: "Stephen"}
-	let(:player2) {double :player2, name: "Enrique"}
-	let(:game){Game.new}
+	let(:player1) { double :player1, name: "Stephen" }
+	let(:player2) { double :player2, name: "Enrique" }
+	let(:game)	  { Game.new						 }
 
 	it "is initialized without players" do
 		expect(game.players).to eq []

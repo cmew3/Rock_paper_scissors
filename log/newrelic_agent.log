@@ -1,0 +1,26 @@
+# Logfile created on 2014-07-29 20:21:32 +0100 by logger.rb/41954
+[07/29/14 20:21:32 +0100 Charlottes-MacBook-Air.local (1818)] INFO : Starting the New Relic agent in "development" environment.
+[07/29/14 20:21:32 +0100 Charlottes-MacBook-Air.local (1818)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/29/14 20:21:32 +0100 Charlottes-MacBook-Air.local (1818)] INFO : Reading configuration from config/newrelic.yml
+[07/29/14 20:21:32 +0100 Charlottes-MacBook-Air.local (1818)] INFO : Environment: development
+[07/29/14 20:21:32 +0100 Charlottes-MacBook-Air.local (1818)] INFO : No known dispatcher detected.
+[07/29/14 20:21:32 +0100 Charlottes-MacBook-Air.local (1818)] INFO : Application: My Application (Development)
+[07/29/14 20:21:32 +0100 Charlottes-MacBook-Air.local (1818)] INFO : Installing Net instrumentation
+[07/29/14 20:21:32 +0100 Charlottes-MacBook-Air.local (1818)] INFO : Installing Sinatra instrumentation
+[07/29/14 20:21:32 +0100 Charlottes-MacBook-Air.local (1818)] INFO : Installing deferred Rack instrumentation
+[07/29/14 20:21:32 +0100 Charlottes-MacBook-Air.local (1818)] INFO : Installing Rack::Builder middleware instrumentation
+[07/29/14 20:21:32 +0100 Charlottes-MacBook-Air.local (1818)] INFO : Finished instrumentation
+[07/29/14 20:21:32 +0100 Charlottes-MacBook-Air.local (1818)] INFO : Doing deferred dependency-detection before Rack startup
+[07/29/14 20:22:11 +0100 Charlottes-MacBook-Air.local (1826)] INFO : Starting the New Relic agent in "development" environment.
+[07/29/14 20:22:11 +0100 Charlottes-MacBook-Air.local (1826)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/29/14 20:22:11 +0100 Charlottes-MacBook-Air.local (1826)] INFO : Reading configuration from config/newrelic.yml
+[07/29/14 20:22:11 +0100 Charlottes-MacBook-Air.local (1826)] INFO : Environment: development
+[07/29/14 20:22:11 +0100 Charlottes-MacBook-Air.local (1826)] INFO : No known dispatcher detected.
+[07/29/14 20:22:11 +0100 Charlottes-MacBook-Air.local (1826)] INFO : Application: My Application (Development)
+[07/29/14 20:22:11 +0100 Charlottes-MacBook-Air.local (1826)] INFO : Installing Net instrumentation
+[07/29/14 20:22:11 +0100 Charlottes-MacBook-Air.local (1826)] INFO : Installing Sinatra instrumentation
+[07/29/14 20:22:11 +0100 Charlottes-MacBook-Air.local (1826)] INFO : Installing deferred Rack instrumentation
+[07/29/14 20:22:11 +0100 Charlottes-MacBook-Air.local (1826)] INFO : Installing Rack::Builder middleware instrumentation
+[07/29/14 20:22:11 +0100 Charlottes-MacBook-Air.local (1826)] INFO : Finished instrumentation
+[07/29/14 20:22:11 +0100 Charlottes-MacBook-Air.local (1826)] INFO : Doing deferred dependency-detection before Rack startup
+[07/29/14 20:22:13 +0100 Charlottes-MacBook-Air.local (1826)] INFO : Reporting to: https://rpm.newrelic.com/accounts/725208/applications/3568767
