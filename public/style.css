@@ -68,6 +68,15 @@ button.weapon {
 	padding: 10 100;
 }
 
+button.picture {
+	padding: 0;	
+	margin: 0;
+}
+
+#cloak {
+	margin: 0 80px;
+}
+
 h3 {
 	margin: 20 auto;
 	font-size: 40 px;
@@ -118,3 +127,15 @@ footer {
 	margin-top: 500px;
 }
 
+div.weapon_outcome {
+	margin: 10 auto;
+	padding: 10px;
+	text-align: center;
+}
+
+img.weapon_picture {
+	border:1px solid #;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}

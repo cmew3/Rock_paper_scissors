@@ -1,0 +1,67 @@
+# Logfile created on 2014-07-29 18:59:13 +0100 by logger.rb/41954
+[07/29/14 18:59:13 +0100 Charlottes-MacBook-Air.local (1069)] INFO : Starting the New Relic agent in "development" environment.
+[07/29/14 18:59:13 +0100 Charlottes-MacBook-Air.local (1069)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/29/14 18:59:13 +0100 Charlottes-MacBook-Air.local (1069)] INFO : Reading configuration from config/newrelic.yml
+[07/29/14 18:59:13 +0100 Charlottes-MacBook-Air.local (1069)] INFO : Environment: development
+[07/29/14 18:59:13 +0100 Charlottes-MacBook-Air.local (1069)] INFO : No known dispatcher detected.
+[07/29/14 18:59:13 +0100 Charlottes-MacBook-Air.local (1069)] INFO : Application: My Application (Development)
+[07/29/14 18:59:13 +0100 Charlottes-MacBook-Air.local (1069)] INFO : Installing Net instrumentation
+[07/29/14 18:59:13 +0100 Charlottes-MacBook-Air.local (1069)] INFO : Installing Sinatra instrumentation
+[07/29/14 18:59:13 +0100 Charlottes-MacBook-Air.local (1069)] INFO : Installing deferred Rack instrumentation
+[07/29/14 18:59:13 +0100 Charlottes-MacBook-Air.local (1069)] INFO : Installing Rack::Builder middleware instrumentation
+[07/29/14 18:59:13 +0100 Charlottes-MacBook-Air.local (1069)] INFO : Finished instrumentation
+[07/29/14 18:59:13 +0100 Charlottes-MacBook-Air.local (1069)] INFO : Doing deferred dependency-detection before Rack startup
+[07/29/14 18:59:14 +0100 Charlottes-MacBook-Air.local (1069)] INFO : Reporting to: https://rpm.newrelic.com/accounts/725208/applications/3568767
+[07/29/14 19:00:18 +0100 Charlottes-MacBook-Air.local (1069)] INFO : Unable to send metric_data data, will try again later. Error: 
+[07/29/14 19:00:18 +0100 Charlottes-MacBook-Air.local (1069)] INFO : NewRelic::Agent::ServerConnectionException: Service unavailable (503): Service Unavailable
+[07/29/14 19:00:19 +0100 Charlottes-MacBook-Air.local (1069)] INFO : Unable to send analytic_event_data data, will try again later. Error: 
+[07/29/14 19:00:19 +0100 Charlottes-MacBook-Air.local (1069)] INFO : NewRelic::Agent::ServerConnectionException: Service unavailable (503): Service Unavailable
+[07/29/14 19:00:56 +0100 Charlottes-MacBook-Air.local (1087)] INFO : Starting the New Relic agent in "development" environment.
+[07/29/14 19:00:56 +0100 Charlottes-MacBook-Air.local (1087)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/29/14 19:00:56 +0100 Charlottes-MacBook-Air.local (1087)] INFO : Reading configuration from config/newrelic.yml
+[07/29/14 19:00:56 +0100 Charlottes-MacBook-Air.local (1087)] INFO : Environment: development
+[07/29/14 19:00:56 +0100 Charlottes-MacBook-Air.local (1087)] INFO : No known dispatcher detected.
+[07/29/14 19:00:56 +0100 Charlottes-MacBook-Air.local (1087)] INFO : Application: My Application (Development)
+[07/29/14 19:00:56 +0100 Charlottes-MacBook-Air.local (1087)] INFO : Installing Net instrumentation
+[07/29/14 19:00:56 +0100 Charlottes-MacBook-Air.local (1087)] INFO : Installing Sinatra instrumentation
+[07/29/14 19:00:56 +0100 Charlottes-MacBook-Air.local (1087)] INFO : Installing deferred Rack instrumentation
+[07/29/14 19:00:56 +0100 Charlottes-MacBook-Air.local (1087)] INFO : Installing Rack::Builder middleware instrumentation
+[07/29/14 19:00:56 +0100 Charlottes-MacBook-Air.local (1087)] INFO : Finished instrumentation
+[07/29/14 19:00:56 +0100 Charlottes-MacBook-Air.local (1087)] INFO : Doing deferred dependency-detection before Rack startup
+[07/29/14 19:00:57 +0100 Charlottes-MacBook-Air.local (1087)] INFO : Reporting to: https://rpm.newrelic.com/accounts/725208/applications/3568767
+[07/29/14 19:03:38 +0100 Charlottes-MacBook-Air.local (1116)] INFO : Starting the New Relic agent in "development" environment.
+[07/29/14 19:03:38 +0100 Charlottes-MacBook-Air.local (1116)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/29/14 19:03:38 +0100 Charlottes-MacBook-Air.local (1116)] INFO : Reading configuration from config/newrelic.yml
+[07/29/14 19:03:38 +0100 Charlottes-MacBook-Air.local (1116)] INFO : Environment: development
+[07/29/14 19:03:38 +0100 Charlottes-MacBook-Air.local (1116)] INFO : No known dispatcher detected.
+[07/29/14 19:03:38 +0100 Charlottes-MacBook-Air.local (1116)] INFO : Application: My Application (Development)
+[07/29/14 19:03:38 +0100 Charlottes-MacBook-Air.local (1116)] INFO : Installing Net instrumentation
+[07/29/14 19:03:38 +0100 Charlottes-MacBook-Air.local (1116)] INFO : Installing Sinatra instrumentation
+[07/29/14 19:03:38 +0100 Charlottes-MacBook-Air.local (1116)] INFO : Installing deferred Rack instrumentation
+[07/29/14 19:03:38 +0100 Charlottes-MacBook-Air.local (1116)] INFO : Installing Rack::Builder middleware instrumentation
+[07/29/14 19:03:38 +0100 Charlottes-MacBook-Air.local (1116)] INFO : Finished instrumentation
+[07/29/14 19:03:38 +0100 Charlottes-MacBook-Air.local (1116)] INFO : Doing deferred dependency-detection before Rack startup
+[07/29/14 19:03:40 +0100 Charlottes-MacBook-Air.local (1116)] INFO : Reporting to: https://rpm.newrelic.com/accounts/725208/applications/3568767
+[07/29/14 19:04:16 +0100 Charlottes-MacBook-Air.local (1124)] INFO : Starting the New Relic agent in "development" environment.
+[07/29/14 19:04:16 +0100 Charlottes-MacBook-Air.local (1124)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/29/14 19:04:16 +0100 Charlottes-MacBook-Air.local (1124)] INFO : Reading configuration from config/newrelic.yml
+[07/29/14 19:04:16 +0100 Charlottes-MacBook-Air.local (1124)] INFO : Environment: development
+[07/29/14 19:04:16 +0100 Charlottes-MacBook-Air.local (1124)] INFO : No known dispatcher detected.
+[07/29/14 19:04:16 +0100 Charlottes-MacBook-Air.local (1124)] INFO : Application: My Application (Development)
+[07/29/14 19:04:16 +0100 Charlottes-MacBook-Air.local (1124)] INFO : Installing Net instrumentation
+[07/29/14 19:04:16 +0100 Charlottes-MacBook-Air.local (1124)] INFO : Installing Sinatra instrumentation
+[07/29/14 19:04:16 +0100 Charlottes-MacBook-Air.local (1124)] INFO : Installing deferred Rack instrumentation
+[07/29/14 19:04:16 +0100 Charlottes-MacBook-Air.local (1124)] INFO : Installing Rack::Builder middleware instrumentation
+[07/29/14 19:04:16 +0100 Charlottes-MacBook-Air.local (1124)] INFO : Finished instrumentation
+[07/29/14 19:04:16 +0100 Charlottes-MacBook-Air.local (1124)] INFO : Doing deferred dependency-detection before Rack startup
+[07/29/14 19:04:17 +0100 Charlottes-MacBook-Air.local (1124)] INFO : Reporting to: https://rpm.newrelic.com/accounts/725208/applications/3568767
+[07/29/14 19:26:21 +0100 Charlottes-MacBook-Air.local (1124)] INFO : Error during check_for_and_handle_agent_commands, will retry later: 
+[07/29/14 19:26:21 +0100 Charlottes-MacBook-Air.local (1124)] INFO : NewRelic::Agent::ServerConnectionException: Service unavailable (503): Service Unavailable
+[07/29/14 19:35:19 +0100 Charlottes-MacBook-Air.local (1124)] INFO : Unable to send metric_data data, will try again later. Error: 
+[07/29/14 19:35:19 +0100 Charlottes-MacBook-Air.local (1124)] INFO : NewRelic::Agent::ServerConnectionException: Service unavailable (503): Service Unavailable
+[07/29/14 19:44:19 +0100 Charlottes-MacBook-Air.local (1124)] INFO : Unable to send metric_data data, will try again later. Error: 
+[07/29/14 19:44:19 +0100 Charlottes-MacBook-Air.local (1124)] INFO : NewRelic::Agent::ServerConnectionException: Service unavailable (503): Service Unavailable
+[07/29/14 19:44:20 +0100 Charlottes-MacBook-Air.local (1124)] INFO : Error during check_for_and_handle_agent_commands, will retry later: 
+[07/29/14 19:44:20 +0100 Charlottes-MacBook-Air.local (1124)] INFO : NewRelic::Agent::ServerConnectionException: Service unavailable (503): Service Unavailable
+[07/29/14 19:52:19 +0100 Charlottes-MacBook-Air.local (1124)] INFO : Unable to send metric_data data, will try again later. Error: 
+[07/29/14 19:52:19 +0100 Charlottes-MacBook-Air.local (1124)] INFO : NewRelic::Agent::ServerConnectionException: Service unavailable (503): Service Unavailable

@@ -32,32 +32,36 @@ describe Game do
 		expect(game.select_player_with(player1.object_id)).to eq player1
 	end
 
-	context 'when playing' do
+	context 'when playing knows the winnder' do
 
 		let(:game){Game.new([player1, player2])}
 
-		it 'player one picks rock, player two picks scissors' do
-			allow(player1).to receive(:pick).and_return("Rock")
-			allow(player2).to receive(:pick).and_return("Scissors")
+		it 'player one picks wand, player two picks potion' do
+			allow(player1).to receive(:pick).and_return("Wand")
+			allow(player2).to receive(:pick).and_return("Potion")
 			expect(game.winner).to eq player1
+			expect(game.loser).to eq player2
 		end
 
-		it 'player one picks paper, player two picks scissors' do
-			allow(player1).to receive(:pick).and_return("Paper")
-			allow(player2).to receive(:pick).and_return("Scissors")
+		it 'player one picks wand, player two picks cloak' do
+			allow(player1).to receive(:pick).and_return("Wand")
+			allow(player2).to receive(:pick).and_return("Cloak")
 			expect(game.winner).to eq player2
+			expect(game.loser).to eq player1
 		end
 
-		it "player one picks paper, player two picks rock" do
-			allow(player1).to receive(:pick).and_return("Paper")
-			allow(player2).to receive(:pick).and_return("Rock")
+		it "player one picks potion, player two picks cloak" do
+			allow(player1).to receive(:pick).and_return("Potion")
+			allow(player2).to receive(:pick).and_return("Cloak")
 			expect(game.winner).to eq player1
+			expect(game.loser).to eq player2
 		end
 
 		it "can be a draw" do
 			allow(player1).to receive(:pick).and_return("Paper")
 			allow(player2).to receive(:pick).and_return("Paper")
 			expect(game.winner).to eq "Draw"
+			expect(game.loser).to eq "Draw"
 		end
 
 	end

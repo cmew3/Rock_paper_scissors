@@ -11,12 +11,15 @@
 		<button name="pick" value="Wand" class="weapon">Wand</button>
 	</form>
 
-<div id="weapon_holder">
- <div id="potion" class ="weapon-selection"><img src='/images/potion.jpg'></div>
- <div id="cloak" class ="weapon-selection"><img src='/images/cloak.jpg'></div>
- <div id="wand" class ="weapon-selection"><img src='/images/wand.jpg'></div>
- <br style="clear: left;" />
-</div>
+	<form action="/play_game" method="POST">
+		<div id="weapon_holder">
+			<button name="pick" value="Potion" class ="picture"><img src='/images/potion.jpg'></button>
+			<button id = "cloak" name="pick" value="Cloak" class ="picture"><img src='/images/cloak.jpg'></button>
+			<button name="pick" value="Wand" class="picture"><img src='/images/wand2.jpg'></button>
+			<br style="clear: left;" />
+		</div>
+	</form>
+
 
 </body>
 </html>

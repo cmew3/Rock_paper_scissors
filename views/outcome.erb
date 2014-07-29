@@ -16,13 +16,13 @@
 		<% if @winner.pick == :wand %>
 			<p>Avada Kedavra </p>
 			<p>A potion is powerless againsts the wand's Killing Curse</p>
-			<p><img src="/images/wand.jpg"></p>
+			<div class = "weapon_outcome"><img src="/images/wand2.jpg" class="weapon_picture"></div>
 		<% elsif @winner.pick == :potion %>
 			<p>A cloak gives no protection from Bloodroot Poison </p>
-			<p><img src="/images/potion.jpg"></p>
+			<div class = "weapon_outcome"><img src="/images/potion.jpg" class="weapon_picture"></div>
 		<% elsif @winner.pick == :cloak %>
 			<p>A wand's spells cannot penetrate the Cloak of Invisibility</p>
-			<p><img src="/images/cloak.jpg"></p>
+			<div class = "weapon_outcome"><img src="/images/cloak.jpg" class="weapon_picture"></div>
 		<% end %>
 	<%end%>
 

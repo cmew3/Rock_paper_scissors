@@ -5,34 +5,24 @@ Feature: Playing
 
 Scenario: A player can register
 	Given I am on the homepage
-	When I click "New Game"
+	When I click "Prepare to duel"
 	And I enter my name
-	When I press "Play!"
+	When I press "Duel!"
 	Then I should see "Please choose"
 
 	Scenario: A player chooses to play computer
 	Given I've registered to play
-	When I choose "Play Computer"
-	Then I should see "Let's duel"
+	When I choose "He-Who-Must-Not-Be-Named"
+	Then I should see "Choose your weapon"
 
 	Scenario: A player chooses to play opponent
 	Given I've registered to play
-	When I choose "Play Live Opponent"
-	Then I should see "Waiting for a second player"
+	When I choose "Play Live Wizard"
+	Then I should see "Waiting for"
 
 Scenario: A second player can register
 	Given another player has registered to play
-	When I choose "Play Live Opponent"
-	Then I should see "Let's duel"
+	When I choose "Play Live Wizard"
+	Then I should see "Choose your"
 
 
-Scenario: Playing a two player game
-	Given two players have registered to play
-	When I am first to choose "Paper"
-	Then I should see "Waiting for"
-
-Scenario: Playing a two player game
-	Given two players have registered to play
-	And the other player has selected "Rock" 
-	When I choose "Paper"
-	Then I should see "RESULTS"

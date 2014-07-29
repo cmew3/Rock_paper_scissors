@@ -39,10 +39,8 @@ class Game
 	end
 
 	def loser
-		return "Draw" if player1.pick == player2.pick
-		return player2  if BEATS[normalize(player1.pick)] == normalize(player2.pick)
-		player1
-
+		return "Draw" if winner == "Draw"
+		players.reject{|player| player == winner}.first
 	end
 
 	def normalize(pick)

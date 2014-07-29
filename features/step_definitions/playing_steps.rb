@@ -45,18 +45,18 @@ end
 Given(/^I've registered to play$/) do
 	visit '/reset'
   	visit '/new-game'
-  	click_button "Play!"
+  	click_button "Duel!"
 end
 
 Then(/^another player has registered to play$/) do
   visit '/new-game'
-  click_button "Play!"
+  click_button "Duel!"
 end
 
 Given(/^a new game$/) do
 	visit '/reset'
 end
 
-When(/^I choose Paper$/) do
-  click_button('Paper')
+When(/^I choose Wand$/) do
+  click_button('Wand')
 end
