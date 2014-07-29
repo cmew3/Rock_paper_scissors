@@ -6,16 +6,16 @@
 	<h1>Choose your weapon to commence the duel</h1>
 
 	<form action="/play_game" method="POST">
-		<button name="pick" value="Potion" class ="weapon">Potion</button>
-		<button name="pick" value="Cloak" class ="weapon">Cloak</button>
-		<button name="pick" value="Wand" class="weapon">Wand</button>
+		<button name="pick" value="Potion" class ="weapon_as_text">Potion</button>
+		<button name="pick" value="Cloak" class ="weapon_as_text">Cloak</button>
+		<button name="pick" value="Wand" class="weapon_as_text">Wand</button>
 	</form>
 
 	<form action="/play_game" method="POST">
 		<div id="weapon_holder">
-			<button name="pick" value="Potion" class ="picture"><img src='/images/potion.jpg'></button>
-			<button id = "cloak" name="pick" value="Cloak" class ="picture"><img src='/images/cloak.jpg'></button>
-			<button name="pick" value="Wand" class="picture"><img src='/images/wand2.jpg'></button>
+			<button name="pick" value="Potion" class ="weapon_as_picture"><img src='/images/potion.jpg'></button>
+			<button id = "cloak" name="pick" value="Cloak" class ="weapon_as_picture"><img src='/images/cloak.jpg'></button>
+			<button name="pick" value="Wand" class="weapon_as_picture"><img src='/images/wand2.jpg'></button>
 			<br style="clear: left;" />
 		</div>
 	</form>
