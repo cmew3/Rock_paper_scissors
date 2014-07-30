@@ -75,3 +75,137 @@
 [07/29/14 20:55:58 +0100 Charlottes-MacBook-Air.local (2067)] INFO : Finished instrumentation
 [07/29/14 20:55:58 +0100 Charlottes-MacBook-Air.local (2067)] INFO : Doing deferred dependency-detection before Rack startup
 [07/29/14 20:55:59 +0100 Charlottes-MacBook-Air.local (2067)] INFO : Reporting to: https://rpm.newrelic.com/accounts/725208/applications/3568767
+[07/30/14 10:33:58 +0100 Charlottes-MacBook-Air.local (2531)] INFO : Starting the New Relic agent in "development" environment.
+[07/30/14 10:33:58 +0100 Charlottes-MacBook-Air.local (2531)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/30/14 10:33:58 +0100 Charlottes-MacBook-Air.local (2531)] INFO : Reading configuration from config/newrelic.yml
+[07/30/14 10:33:58 +0100 Charlottes-MacBook-Air.local (2531)] INFO : Environment: development
+[07/30/14 10:33:58 +0100 Charlottes-MacBook-Air.local (2531)] INFO : No known dispatcher detected.
+[07/30/14 10:33:58 +0100 Charlottes-MacBook-Air.local (2531)] INFO : Application: My Application (Development)
+[07/30/14 10:33:58 +0100 Charlottes-MacBook-Air.local (2531)] INFO : Installing Net instrumentation
+[07/30/14 10:33:58 +0100 Charlottes-MacBook-Air.local (2531)] INFO : Installing Sinatra instrumentation
+[07/30/14 10:33:58 +0100 Charlottes-MacBook-Air.local (2531)] INFO : Installing deferred Rack instrumentation
+[07/30/14 10:33:58 +0100 Charlottes-MacBook-Air.local (2531)] INFO : Installing Rack::Builder middleware instrumentation
+[07/30/14 10:33:58 +0100 Charlottes-MacBook-Air.local (2531)] INFO : Finished instrumentation
+[07/30/14 10:33:58 +0100 Charlottes-MacBook-Air.local (2531)] INFO : Doing deferred dependency-detection before Rack startup
+[07/30/14 10:35:25 +0100 Charlottes-MacBook-Air.local (2542)] INFO : Starting the New Relic agent in "development" environment.
+[07/30/14 10:35:25 +0100 Charlottes-MacBook-Air.local (2542)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/30/14 10:35:25 +0100 Charlottes-MacBook-Air.local (2542)] INFO : Reading configuration from config/newrelic.yml
+[07/30/14 10:35:25 +0100 Charlottes-MacBook-Air.local (2542)] INFO : Environment: development
+[07/30/14 10:35:25 +0100 Charlottes-MacBook-Air.local (2542)] INFO : No known dispatcher detected.
+[07/30/14 10:35:25 +0100 Charlottes-MacBook-Air.local (2542)] INFO : Application: My Application (Development)
+[07/30/14 10:35:25 +0100 Charlottes-MacBook-Air.local (2542)] INFO : Installing Net instrumentation
+[07/30/14 10:35:25 +0100 Charlottes-MacBook-Air.local (2542)] INFO : Installing Sinatra instrumentation
+[07/30/14 10:35:25 +0100 Charlottes-MacBook-Air.local (2542)] INFO : Installing deferred Rack instrumentation
+[07/30/14 10:35:25 +0100 Charlottes-MacBook-Air.local (2542)] INFO : Installing Rack::Builder middleware instrumentation
+[07/30/14 10:35:25 +0100 Charlottes-MacBook-Air.local (2542)] INFO : Finished instrumentation
+[07/30/14 10:35:25 +0100 Charlottes-MacBook-Air.local (2542)] INFO : Doing deferred dependency-detection before Rack startup
+[07/30/14 10:35:26 +0100 Charlottes-MacBook-Air.local (2542)] INFO : Reporting to: https://rpm.newrelic.com/accounts/725208/applications/3568767
+[07/30/14 10:39:18 +0100 Charlottes-MacBook-Air.local (2697)] INFO : Starting the New Relic agent in "development" environment.
+[07/30/14 10:39:18 +0100 Charlottes-MacBook-Air.local (2697)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/30/14 10:39:18 +0100 Charlottes-MacBook-Air.local (2697)] INFO : Reading configuration from config/newrelic.yml
+[07/30/14 10:39:18 +0100 Charlottes-MacBook-Air.local (2697)] INFO : Environment: development
+[07/30/14 10:39:18 +0100 Charlottes-MacBook-Air.local (2697)] INFO : Dispatcher: webrick
+[07/30/14 10:39:18 +0100 Charlottes-MacBook-Air.local (2697)] INFO : Application: My Application (Development)
+[07/30/14 10:39:18 +0100 Charlottes-MacBook-Air.local (2697)] INFO : Installing Net instrumentation
+[07/30/14 10:39:18 +0100 Charlottes-MacBook-Air.local (2697)] INFO : Installing Sinatra instrumentation
+[07/30/14 10:39:18 +0100 Charlottes-MacBook-Air.local (2697)] INFO : Installing deferred Rack instrumentation
+[07/30/14 10:39:18 +0100 Charlottes-MacBook-Air.local (2697)] INFO : Installing Rack::Builder middleware instrumentation
+[07/30/14 10:39:18 +0100 Charlottes-MacBook-Air.local (2697)] INFO : Finished instrumentation
+[07/30/14 10:39:18 +0100 Charlottes-MacBook-Air.local (2697)] INFO : Doing deferred dependency-detection before Rack startup
+[07/30/14 10:39:20 +0100 Charlottes-MacBook-Air.local (2701)] INFO : Starting the New Relic agent in "development" environment.
+[07/30/14 10:39:20 +0100 Charlottes-MacBook-Air.local (2701)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/30/14 10:39:20 +0100 Charlottes-MacBook-Air.local (2701)] INFO : Reading configuration from config/newrelic.yml
+[07/30/14 10:39:20 +0100 Charlottes-MacBook-Air.local (2701)] INFO : Environment: development
+[07/30/14 10:39:20 +0100 Charlottes-MacBook-Air.local (2701)] INFO : Dispatcher: webrick
+[07/30/14 10:39:20 +0100 Charlottes-MacBook-Air.local (2701)] INFO : Application: My Application (Development)
+[07/30/14 10:39:20 +0100 Charlottes-MacBook-Air.local (2701)] INFO : Installing Net instrumentation
+[07/30/14 10:39:20 +0100 Charlottes-MacBook-Air.local (2701)] INFO : Installing Sinatra instrumentation
+[07/30/14 10:39:20 +0100 Charlottes-MacBook-Air.local (2701)] INFO : Installing deferred Rack instrumentation
+[07/30/14 10:39:20 +0100 Charlottes-MacBook-Air.local (2701)] INFO : Installing Rack::Builder middleware instrumentation
+[07/30/14 10:39:20 +0100 Charlottes-MacBook-Air.local (2701)] INFO : Finished instrumentation
+[07/30/14 10:39:20 +0100 Charlottes-MacBook-Air.local (2701)] INFO : Doing deferred dependency-detection before Rack startup
+[07/30/14 10:39:26 +0100 Charlottes-MacBook-Air.local (2705)] INFO : Starting the New Relic agent in "development" environment.
+[07/30/14 10:39:26 +0100 Charlottes-MacBook-Air.local (2705)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/30/14 10:39:26 +0100 Charlottes-MacBook-Air.local (2705)] INFO : Reading configuration from config/newrelic.yml
+[07/30/14 10:39:26 +0100 Charlottes-MacBook-Air.local (2705)] INFO : Environment: development
+[07/30/14 10:39:26 +0100 Charlottes-MacBook-Air.local (2705)] INFO : Dispatcher: webrick
+[07/30/14 10:39:26 +0100 Charlottes-MacBook-Air.local (2705)] INFO : Application: My Application (Development)
+[07/30/14 10:39:26 +0100 Charlottes-MacBook-Air.local (2705)] INFO : Installing Net instrumentation
+[07/30/14 10:39:26 +0100 Charlottes-MacBook-Air.local (2705)] INFO : Installing Sinatra instrumentation
+[07/30/14 10:39:26 +0100 Charlottes-MacBook-Air.local (2705)] INFO : Installing deferred Rack instrumentation
+[07/30/14 10:39:26 +0100 Charlottes-MacBook-Air.local (2705)] INFO : Installing Rack::Builder middleware instrumentation
+[07/30/14 10:39:26 +0100 Charlottes-MacBook-Air.local (2705)] INFO : Finished instrumentation
+[07/30/14 10:39:26 +0100 Charlottes-MacBook-Air.local (2705)] INFO : Doing deferred dependency-detection before Rack startup
+[07/30/14 10:39:27 +0100 Charlottes-MacBook-Air.local (2710)] INFO : Starting the New Relic agent in "development" environment.
+[07/30/14 10:39:27 +0100 Charlottes-MacBook-Air.local (2710)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/30/14 10:39:27 +0100 Charlottes-MacBook-Air.local (2710)] INFO : Reading configuration from config/newrelic.yml
+[07/30/14 10:39:27 +0100 Charlottes-MacBook-Air.local (2710)] INFO : Environment: development
+[07/30/14 10:39:27 +0100 Charlottes-MacBook-Air.local (2710)] INFO : Dispatcher: webrick
+[07/30/14 10:39:27 +0100 Charlottes-MacBook-Air.local (2710)] INFO : Application: My Application (Development)
+[07/30/14 10:39:27 +0100 Charlottes-MacBook-Air.local (2710)] INFO : Installing Net instrumentation
+[07/30/14 10:39:27 +0100 Charlottes-MacBook-Air.local (2710)] INFO : Installing Sinatra instrumentation
+[07/30/14 10:39:27 +0100 Charlottes-MacBook-Air.local (2710)] INFO : Installing deferred Rack instrumentation
+[07/30/14 10:39:27 +0100 Charlottes-MacBook-Air.local (2710)] INFO : Installing Rack::Builder middleware instrumentation
+[07/30/14 10:39:27 +0100 Charlottes-MacBook-Air.local (2710)] INFO : Finished instrumentation
+[07/30/14 10:39:27 +0100 Charlottes-MacBook-Air.local (2710)] INFO : Doing deferred dependency-detection before Rack startup
+[07/30/14 10:39:28 +0100 Charlottes-MacBook-Air.local (2714)] INFO : Starting the New Relic agent in "development" environment.
+[07/30/14 10:39:28 +0100 Charlottes-MacBook-Air.local (2714)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/30/14 10:39:28 +0100 Charlottes-MacBook-Air.local (2714)] INFO : Reading configuration from config/newrelic.yml
+[07/30/14 10:39:28 +0100 Charlottes-MacBook-Air.local (2714)] INFO : Environment: development
+[07/30/14 10:39:28 +0100 Charlottes-MacBook-Air.local (2714)] INFO : Dispatcher: webrick
+[07/30/14 10:39:28 +0100 Charlottes-MacBook-Air.local (2714)] INFO : Application: My Application (Development)
+[07/30/14 10:39:28 +0100 Charlottes-MacBook-Air.local (2714)] INFO : Installing Net instrumentation
+[07/30/14 10:39:28 +0100 Charlottes-MacBook-Air.local (2714)] INFO : Installing Sinatra instrumentation
+[07/30/14 10:39:28 +0100 Charlottes-MacBook-Air.local (2714)] INFO : Installing deferred Rack instrumentation
+[07/30/14 10:39:28 +0100 Charlottes-MacBook-Air.local (2714)] INFO : Installing Rack::Builder middleware instrumentation
+[07/30/14 10:39:28 +0100 Charlottes-MacBook-Air.local (2714)] INFO : Finished instrumentation
+[07/30/14 10:39:28 +0100 Charlottes-MacBook-Air.local (2714)] INFO : Doing deferred dependency-detection before Rack startup
+[07/30/14 10:39:29 +0100 Charlottes-MacBook-Air.local (2718)] INFO : Starting the New Relic agent in "development" environment.
+[07/30/14 10:39:29 +0100 Charlottes-MacBook-Air.local (2718)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/30/14 10:39:29 +0100 Charlottes-MacBook-Air.local (2718)] INFO : Reading configuration from config/newrelic.yml
+[07/30/14 10:39:29 +0100 Charlottes-MacBook-Air.local (2718)] INFO : Environment: development
+[07/30/14 10:39:29 +0100 Charlottes-MacBook-Air.local (2718)] INFO : Dispatcher: webrick
+[07/30/14 10:39:29 +0100 Charlottes-MacBook-Air.local (2718)] INFO : Application: My Application (Development)
+[07/30/14 10:39:29 +0100 Charlottes-MacBook-Air.local (2718)] INFO : Installing Net instrumentation
+[07/30/14 10:39:29 +0100 Charlottes-MacBook-Air.local (2718)] INFO : Installing Sinatra instrumentation
+[07/30/14 10:39:29 +0100 Charlottes-MacBook-Air.local (2718)] INFO : Installing deferred Rack instrumentation
+[07/30/14 10:39:29 +0100 Charlottes-MacBook-Air.local (2718)] INFO : Installing Rack::Builder middleware instrumentation
+[07/30/14 10:39:29 +0100 Charlottes-MacBook-Air.local (2718)] INFO : Finished instrumentation
+[07/30/14 10:39:29 +0100 Charlottes-MacBook-Air.local (2718)] INFO : Doing deferred dependency-detection before Rack startup
+[07/30/14 10:39:30 +0100 Charlottes-MacBook-Air.local (2722)] INFO : Starting the New Relic agent in "development" environment.
+[07/30/14 10:39:30 +0100 Charlottes-MacBook-Air.local (2722)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/30/14 10:39:30 +0100 Charlottes-MacBook-Air.local (2722)] INFO : Reading configuration from config/newrelic.yml
+[07/30/14 10:39:30 +0100 Charlottes-MacBook-Air.local (2722)] INFO : Environment: development
+[07/30/14 10:39:30 +0100 Charlottes-MacBook-Air.local (2722)] INFO : Dispatcher: webrick
+[07/30/14 10:39:30 +0100 Charlottes-MacBook-Air.local (2722)] INFO : Application: My Application (Development)
+[07/30/14 10:39:30 +0100 Charlottes-MacBook-Air.local (2722)] INFO : Installing Net instrumentation
+[07/30/14 10:39:30 +0100 Charlottes-MacBook-Air.local (2722)] INFO : Installing Sinatra instrumentation
+[07/30/14 10:39:30 +0100 Charlottes-MacBook-Air.local (2722)] INFO : Installing deferred Rack instrumentation
+[07/30/14 10:39:30 +0100 Charlottes-MacBook-Air.local (2722)] INFO : Installing Rack::Builder middleware instrumentation
+[07/30/14 10:39:30 +0100 Charlottes-MacBook-Air.local (2722)] INFO : Finished instrumentation
+[07/30/14 10:39:30 +0100 Charlottes-MacBook-Air.local (2722)] INFO : Doing deferred dependency-detection before Rack startup
+[07/30/14 10:42:45 +0100 Charlottes-MacBook-Air.local (2748)] INFO : Starting the New Relic agent in "development" environment.
+[07/30/14 10:42:45 +0100 Charlottes-MacBook-Air.local (2748)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/30/14 10:42:45 +0100 Charlottes-MacBook-Air.local (2748)] INFO : Reading configuration from config/newrelic.yml
+[07/30/14 10:42:45 +0100 Charlottes-MacBook-Air.local (2748)] INFO : Environment: development
+[07/30/14 10:42:45 +0100 Charlottes-MacBook-Air.local (2748)] INFO : No known dispatcher detected.
+[07/30/14 10:42:45 +0100 Charlottes-MacBook-Air.local (2748)] INFO : Application: My Application (Development)
+[07/30/14 10:42:45 +0100 Charlottes-MacBook-Air.local (2748)] INFO : Installing Net instrumentation
+[07/30/14 10:42:45 +0100 Charlottes-MacBook-Air.local (2748)] INFO : Installing Sinatra instrumentation
+[07/30/14 10:42:45 +0100 Charlottes-MacBook-Air.local (2748)] INFO : Installing deferred Rack instrumentation
+[07/30/14 10:42:45 +0100 Charlottes-MacBook-Air.local (2748)] INFO : Installing Rack::Builder middleware instrumentation
+[07/30/14 10:42:45 +0100 Charlottes-MacBook-Air.local (2748)] INFO : Finished instrumentation
+[07/30/14 10:42:45 +0100 Charlottes-MacBook-Air.local (2748)] INFO : Doing deferred dependency-detection before Rack startup
+[07/30/14 10:42:52 +0100 Charlottes-MacBook-Air.local (2753)] INFO : Starting the New Relic agent in "development" environment.
+[07/30/14 10:42:52 +0100 Charlottes-MacBook-Air.local (2753)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[07/30/14 10:42:52 +0100 Charlottes-MacBook-Air.local (2753)] INFO : Reading configuration from config/newrelic.yml
+[07/30/14 10:42:52 +0100 Charlottes-MacBook-Air.local (2753)] INFO : Environment: development
+[07/30/14 10:42:52 +0100 Charlottes-MacBook-Air.local (2753)] INFO : No known dispatcher detected.
+[07/30/14 10:42:52 +0100 Charlottes-MacBook-Air.local (2753)] INFO : Application: My Application (Development)
+[07/30/14 10:42:52 +0100 Charlottes-MacBook-Air.local (2753)] INFO : Installing Net instrumentation
+[07/30/14 10:42:52 +0100 Charlottes-MacBook-Air.local (2753)] INFO : Installing Sinatra instrumentation
+[07/30/14 10:42:52 +0100 Charlottes-MacBook-Air.local (2753)] INFO : Installing deferred Rack instrumentation
+[07/30/14 10:42:52 +0100 Charlottes-MacBook-Air.local (2753)] INFO : Installing Rack::Builder middleware instrumentation
+[07/30/14 10:42:52 +0100 Charlottes-MacBook-Air.local (2753)] INFO : Finished instrumentation
+[07/30/14 10:42:52 +0100 Charlottes-MacBook-Air.local (2753)] INFO : Doing deferred dependency-detection before Rack startup
+[07/30/14 10:42:54 +0100 Charlottes-MacBook-Air.local (2753)] INFO : Reporting to: https://rpm.newrelic.com/accounts/725208/applications/3568767

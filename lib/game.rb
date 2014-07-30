@@ -32,15 +32,19 @@ class Game
 		players[1]
 	end
 
+	def draw?
+		player1.pick == player2.pick
+	end
+
 	def winner
-		return "Draw" if player1.pick == player2.pick
+		return "Draw" if draw?
 		return player1  if BEATS[normalize(player1.pick)] == normalize(player2.pick)
 		player2
 	end
 
 	def loser
-		return "Draw" if winner == "Draw"
-		players.reject{|player| player == winner}.first
+		return "Draw" if draw?
+		winner == player2 ? player1 : player2
 	end
 
 	def normalize(pick)
